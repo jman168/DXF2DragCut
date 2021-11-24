@@ -9,5 +9,9 @@ include_directories(include)
 # Add executable called "DXF2DragCut" that is built from the source files
 # "demo.cxx" and "demo_b.cxx". The extensions are automatically found.
 add_executable (DXF2DragCut
+    include/DXFParser.h
+
+    src/DXFParser.cpp
+
     src/DXF2DragCut.cpp
 )
